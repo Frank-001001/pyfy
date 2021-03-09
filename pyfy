@@ -1,0 +1,21 @@
+id1=1
+name1="蔡依林设计款"
+price1=10
+quality1=A+
+type1="上衣"
+sales1=233
+id2=2
+name2="蔡依林设计款2"
+price2=20
+quality2=AA+
+type2="裤子"
+sales2=97
+
+print("---------------------------------")
+print("--------欢迎来到衣服商城---------")
+print("---------------------------------")
+print("编号 衣服名称 价格 品质 类型 销量")
+print("id1  name1 price1 quality1 type1 sales1")
+print("id2  name2 price2 quality2 type2 sales2")
+print("最终价格",(price1*sales1+price2*sales2),"￥")
+
